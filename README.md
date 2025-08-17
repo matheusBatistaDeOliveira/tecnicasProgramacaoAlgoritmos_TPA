@@ -1,1 +1,1 @@
-# tecnicasProgramacaoAlgoritmos_TPA
+# Tecnicas de Programacão e Algoritmos - TPA
