@@ -7,31 +7,41 @@ for (let i = 1; i <= 10; i++) {
 
 /* or */
 
-let N1 = 6;
-console.log(N1);
+let N1 = 3;
+
+/* N1 = prompt("Digite o número referente da tabuada a ser solicitada"); */
+console.log("1 * " + N1 + " = " + N1);
 
 resultado1 = N1 * 2;
-console.log(resultado1);
+console.log("2 * "+ N1 + " = " + resultado1);
 
 resultado1 = N1 * 3;
-console.log(resultado1);
+console.log("3 * "+ N1 + " = " + resultado1);
 
 resultado1 = N1 * 4;
-console.log(resultado1);
+console.log("4 * "+ N1 + " = " + resultado1);
 
 resultado1 = N1 * 5;
-console.log(resultado1);
+console.log("5 * "+ N1 + " = " + resultado1);
 
 resultado1 = N1 * 6;
-console.log(resultado1);
+console.log("6 * "+ N1 + " = " + resultado1);
 
 resultado1 = N1 * 7;
-console.log(resultado1);
+console.log("7 * "+ N1 + " = " + resultado1);
 
 resultado1 = N1 * 8;
-console.log(resultado1);
+console.log("8 * "+ N1 + " = " + resultado1);
 
 resultado1 = N1 * 9;
-console.log(resultado1);
+console.log("9 * "+ N1 + " = " + resultado1);
 
 resultado1 = N1 * 10;
+console.log("10 * "+ N1 + " = " + resultado1);
+
+function Limpa(){
+    setTimeout(() =>{
+        console.clear()
+    }, 10000);
+}
+Limpa();
