@@ -34,4 +34,6 @@ console.log(resultado1);
 resultado1 = N1 * 9;
 console.log(resultado1);
 
+
 resultado1 = N1 * 10;
+console.log(resultado1);
