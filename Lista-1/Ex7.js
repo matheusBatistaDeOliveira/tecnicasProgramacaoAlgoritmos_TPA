@@ -8,6 +8,7 @@ for (let i = 1; i <= 10; i++) {
 /* or */
 
 let N1 = 3;
+
 /* N1 = prompt("Digite o número referente da tabuada a ser solicitada"); */
 console.log("1 * " + N1 + " = " + N1);
 
