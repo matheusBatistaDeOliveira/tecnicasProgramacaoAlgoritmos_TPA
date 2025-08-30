@@ -1,6 +1,12 @@
-let N1 = 5;
+var readlineSync = require('readline-sync');
 
-let N2 = 12;
+let N1;
+
+let N2;
+
+N1 = Number(readlineSync.question("Digite o valor referente a N1: "))
+
+N2 = Number(readlineSync.question("Digite o valor referente a N2: "))
 
 let resultado1 = N1 + 10;
 

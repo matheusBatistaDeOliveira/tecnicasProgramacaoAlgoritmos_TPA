@@ -1,8 +1,16 @@
-let N1 = 3;
+var readlineSync = require('readline-sync');
 
-let N2 = 12;
+let N1;
 
-let N3 = 7;
+let N2;
+
+let N3;
+
+N1 = Number(readlineSync.question("Digite o valor de N1: "));
+
+N2 = Number(readlineSync.question("Digite o valor de N2: "));
+
+N3 = Number(readlineSync.question("Digite o valor de N3: "));
 
 let resultado1 = N1 + 10;
 
