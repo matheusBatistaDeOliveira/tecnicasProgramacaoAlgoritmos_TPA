@@ -12,7 +12,7 @@ for (let i = 1; i <= 10; i++) {
 let N1;
 
 N1 = Number(readlineSync.question('Digite o numero referente da tabuada a ser solicitada: '))
-/* N1 = prompt("Digite o número referente da tabuada a ser solicitada"); */
+/* N1 = prompt("Digite o numero referente da tabuada a ser solicitada"); */
 /* essa é a forma que eu utilizava, acredito ser mais simples "prompt no html para o terminal" */
 
 console.log("1 * " + N1 + " = " + N1);
