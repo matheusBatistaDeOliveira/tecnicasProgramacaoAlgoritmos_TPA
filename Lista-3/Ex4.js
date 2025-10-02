@@ -1,13 +1,16 @@
-var readlinesync = require('readline-sync');
+import input from 'readline-sync'
 
-let n1 = Number(readlinesync.question("Digite o primeiro numero: "));
-let n2 = Number(readlinesync.question("Digite o segundo numero: "));
-let n3 = Number(readlinesync.question("Digite o terceiro numero: "));
+let num1 = input.questionInt("Digite o 1° número: ")
+let num2 = input.questionInt("Digite o 2° número: ")
+let num3 = input.questionInt("Digite o 3° número: ")
 
-n1 += 5;
-n2 += 5;
-n3 += 5;
-
-if (n1 > 10) console.log(`Primeiro numero + 5 = ${n1}`);
-if (n2 > 10) console.log(`Segundo numero + 5 = ${n2}`);
-if (n3 > 10) console.log(`Terceiro numero + 5 = ${n3}`);
+if(num1>num2-num1>num3){
+ console.log("O maior número é: ",num1)
+}else{
+if(num2>num1-num2>num3){
+ console.log("O maior número é: ",num2) 
+}else{
+if(num3>num1-num3>num2){
+console.log("O maior número é: ",num3)
+}}
+}

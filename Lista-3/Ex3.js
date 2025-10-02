@@ -1,8 +1,8 @@
-var readlinesync = require('readline-sync');
-
-let n = Number(readlinesync.question("Digite um numero: "));
-let resultado = n - 10;
-
-if (resultado > 3) {
-    console.log(`O resultado da subtração é ${resultado} e é maior que 3`);
+import input from 'readline-sync'
+let n1= input.questionInt("digite um numero")
+if(n1>10){
+    console.log("numero maior que 10:",n1)
+}
+else{
+    console.log ("numero menor ou igual a 10:", n1)
 }

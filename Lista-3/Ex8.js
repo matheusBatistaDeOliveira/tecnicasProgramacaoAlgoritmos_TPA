@@ -1,8 +1,18 @@
-var readlinesync = require('readline-sync');
+import input from 'readline-sync'
 
-let n1 = Number(readlinesync.question("Digite o primeiro numero: "));
-let n2 = Number(readlinesync.question("Digite o segundo numero: "));
+let num = input.questionInt("Digite um número: ")
 
-if (n1 === n2) {
-    console.log(`Os numeros digitados são iguais: ${n1} e ${n2}`);
-}
+let resp = num + 5
+let resp1 = num + 20
+
+if(num<10-resp1>25){
+ console.log("O resultado é: ", resp1)
+}else{
+if(num==10-resp1>25){
+ console.log("O resultado é: ", resp1)
+    }
+else{
+if(num>10-resp>25)
+console.log("O resultado é: ", resp)
+
+}}

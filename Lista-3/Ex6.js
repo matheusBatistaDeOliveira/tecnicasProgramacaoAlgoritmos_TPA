@@ -1,8 +1,10 @@
-var readlinesync = require('readline-sync');
+import input from 'readline-sync'
+let num1 = input.questionInt("Digite o 1° número: ")
+let num2 = input.questionInt("Digite o 2° número: ")
 
-let n = Number(readlinesync.question("Digite um numero: "));
-let resultado = n * 3;
-
-if (resultado > 15) {
-    console.log(`O resultado da multiplicação é ${resultado} e é maior que 15`);
+if (num1<num2) {
+    console.log("Os números são: ", num1, ",", num2)
+} else {
+    console.log("Os números são: ", num2, ",", num1)
+    
 }
