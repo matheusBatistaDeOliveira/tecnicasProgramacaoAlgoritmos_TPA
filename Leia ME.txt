@@ -1,2 +1,2 @@
 A Lista-1
-executei o npm e não funcionou, deu erro dizendo que meu sistema não permite o dowload, algo assim. Fiz do jeito que estou acostumado
+executei o npm e não funcionou, deu erro dizendo que meu sistema não permite o download, algo assim. Fiz do jeito que estou acostumado
