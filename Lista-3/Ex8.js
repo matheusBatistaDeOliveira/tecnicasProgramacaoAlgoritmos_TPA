@@ -1,4 +1,4 @@
-import input from 'readline-sync'
+const input = require('readline-sync')
 
 let num = input.questionInt("Digite um número: ")
 
