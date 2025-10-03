@@ -1,4 +1,4 @@
-import input from 'readline-sync'
+const input = require('readline-sync')
 let n1= input.questionInt("digite um numero")
 if(n1>10){
     console.log("numero maior que 10:",n1)
