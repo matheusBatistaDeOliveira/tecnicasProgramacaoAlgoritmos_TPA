@@ -1,4 +1,4 @@
-import input from 'readline-sync'
+const input = require('readline-sync')
 let n1= input.questionInt("digite um numero")
 let n2= input.questionInt("digite o numeoro")
 if (n1<n2){
