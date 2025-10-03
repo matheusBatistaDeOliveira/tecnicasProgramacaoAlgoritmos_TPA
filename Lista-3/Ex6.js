@@ -1,4 +1,4 @@
-import input from 'readline-sync'
+const input = require('readline-sync')
 let num1 = input.questionInt("Digite o 1° número: ")
 let num2 = input.questionInt("Digite o 2° número: ")
 
